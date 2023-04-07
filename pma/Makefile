@@ -1,4 +1,4 @@
-FUNCTIONS=thumbnail
+FUNCTIONS=thumbnail face_recognition
 OUTPUTS=$(patsubst %, output/%.img, $(FUNCTIONS))
 
 .PHONY: all

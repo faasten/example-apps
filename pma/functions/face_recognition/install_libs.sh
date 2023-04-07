@@ -6,4 +6,4 @@ apk update \
         giflib giflib-dev \
         openblas openblas-dev
 
-cp -r /usr/lib/* /lib/* /app/out/lib
+cp -r /usr/lib/* /lib/ld-musl-x86_64.so.1 /lib/libc.musl-x86_64.so.1 /app/out/lib
