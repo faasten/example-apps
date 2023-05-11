@@ -1,4 +1,4 @@
-FUNCTIONS=thumbnail face_recognition
+FUNCTIONS=thumbnail face_recognition timeindexing
 OUTPUTS=$(patsubst %, output/%.img, $(FUNCTIONS))
 
 .PHONY: all
