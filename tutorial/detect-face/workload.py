@@ -2,7 +2,7 @@ from PIL import Image
 from io import BytesIO
 import face_recognition
 
-def handle(request, syscall):
+def handle(event, syscall):
     download_path = event['input']['download_key']
     output_dir = event['input']['output_dir']
     blobs = {}
